@@ -1,7 +1,10 @@
-# что ж, т.к. я по привычке работаю с тайпингом и докстрингами и добавила их разу
-# то просто оставлю вот такие глупые комменты для имитации деятельности другого разработчика
+# я сразу использую тайпинг и докстринги
 
 def get_uppercase_text(text: str) -> str:
     """ return all text in uppercase """
     return text.upper()
 
+
+def get_text_in_title(text: str) -> str:
+    """ return all text in title style"""
+    return text.title()
