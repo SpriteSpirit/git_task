@@ -6,5 +6,5 @@ def get_uppercase_text(text: str) -> str:
 
 
 def get_text_in_title(text: str) -> str:
-    """ return all text in title style"""
+    """ return all text in title style """
     return text.title()
